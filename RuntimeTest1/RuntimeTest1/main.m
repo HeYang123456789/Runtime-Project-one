@@ -1,8 +1,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import <objc/message.h>
-
 //取消undeclared警告取消
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wundeclared-selector"

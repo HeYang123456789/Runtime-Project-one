@@ -11,5 +11,4 @@
 @interface OtherPerson : NSObject
 
 
-
 @end

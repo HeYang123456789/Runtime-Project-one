@@ -27,9 +27,10 @@ int main(int argc, const char * argv[]) {
         id person = [[clazz alloc] init];
         
         //send message to 'eat' method in Person Class or Person Instance
-        //发送消息给Person类或者Person实例的‘eat’方法
+        //发送消息给Person类或者Person实例的‘eat’方法 不含参数
         [person performSelector:@selector(eat) withObject:nil];
-        [clazz performSelector:@selector(eat) withObject:nil];
+        //发送消息给Person类的‘eat’方法 含两个参数
+        [clazz performSelector:@selector(eat:with:) withObject:@"Hello" withObject:@"World"];
     }
     return 0;
 }

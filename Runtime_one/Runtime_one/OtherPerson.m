@@ -35,10 +35,11 @@ void eat_1(id self,SEL sel)
     NSLog(@"到底吃不吃饭了");
     NSLog(@"%@ %@",self,NSStringFromSelector(sel));
 }
-void eat_2(id self,SEL sel)
+void eat_2(id self,SEL sel, NSString* str1,NSString* str2)
 {
     NSLog(@"到底吃不吃饭了");
     NSLog(@"%@ %@",self,NSStringFromSelector(sel));
+    NSLog(@"%@ and %@",str1,str2);
 }
 
 
@@ -57,9 +58,9 @@ void eat_2(id self,SEL sel)
 }
 +(BOOL)hy2_resolveClassMethod:(SEL)sel{
     
-    if (sel == NSSelectorFromString(@"eat")) {
+    if (sel == NSSelectorFromString(@"eat:with:")) {
         
-        class_addMethod(objc_getMetaClass("Person"), sel, (IMP)eat_2, "v#:");
+        class_addMethod(objc_getMetaClass("Person"), sel, (IMP)eat_2, "v#:@@");
     }
     
     return YES;

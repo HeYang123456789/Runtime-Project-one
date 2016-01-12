@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3BFB8E401C43BFEA00209CCD"
-               BuildableName = "RuntimeTest1"
-               BlueprintName = "RuntimeTest1"
-               ReferencedContainer = "container:RuntimeTest1.xcodeproj">
+               BlueprintIdentifier = "3BF36E221C450E99007E0762"
+               BuildableName = "Runtime_one"
+               BlueprintName = "Runtime_one"
+               ReferencedContainer = "container:Runtime_one.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFB8E401C43BFEA00209CCD"
-            BuildableName = "RuntimeTest1"
-            BlueprintName = "RuntimeTest1"
-            ReferencedContainer = "container:RuntimeTest1.xcodeproj">
+            BlueprintIdentifier = "3BF36E221C450E99007E0762"
+            BuildableName = "Runtime_one"
+            BlueprintName = "Runtime_one"
+            ReferencedContainer = "container:Runtime_one.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFB8E401C43BFEA00209CCD"
-            BuildableName = "RuntimeTest1"
-            BlueprintName = "RuntimeTest1"
-            ReferencedContainer = "container:RuntimeTest1.xcodeproj">
+            BlueprintIdentifier = "3BF36E221C450E99007E0762"
+            BuildableName = "Runtime_one"
+            BlueprintName = "Runtime_one"
+            ReferencedContainer = "container:Runtime_one.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3BFB8E401C43BFEA00209CCD"
-            BuildableName = "RuntimeTest1"
-            BlueprintName = "RuntimeTest1"
-            ReferencedContainer = "container:RuntimeTest1.xcodeproj">
+            BlueprintIdentifier = "3BF36E221C450E99007E0762"
+            BuildableName = "Runtime_one"
+            BlueprintName = "Runtime_one"
+            ReferencedContainer = "container:Runtime_one.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
